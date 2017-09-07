@@ -1,9 +1,10 @@
 /* eslint-env node */
+'use strict';
 
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-drupal-waterwheel-app',  // @todo - Change all occurrences of this to your application's name
-    environment: environment,
+    environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
